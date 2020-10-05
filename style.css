@@ -1,0 +1,128 @@
+html
+{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body
+{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #202020;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1em;
+  color: #ffffff;
+  border-width: 0px;
+}
+
+iframe
+{
+  border-width: 0px;
+  padding: 0;
+  margin: 0;
+}
+
+p
+{
+  padding: 0;
+  margin: 0;
+}
+
+.caption
+{
+  margin: 1em;
+  text-align: center;
+}
+
+.boxcontainer
+{
+  position: fixed;
+  right: 0em;
+  top: 0em;
+/*
+  width: 5em;
+*/
+  height: 3em;
+  z-index: 1000;
+  margin: 0em;
+  padding: 0.5em 0.5em 0 0;
+/*
+  padding-right: 0.5em;
+*/
+  opacity: 0.3;
+  
+  -webkit-transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -ms-transition: opacity 0.25s ease-in-out;
+  -o-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+}
+.boxcontainer:hover
+{
+  opacity: 1;
+}
+.box
+{
+  padding: 0em;
+  bottom: 0em;
+  height: 100%;
+}
+.box ul
+{
+  padding: 0em;
+  margin: 0em;
+}
+.box ul li
+{
+  display: inline;
+  margin: 0em;
+  padding: 0em;
+  margin-right: 0.5em;
+  position: relative;
+  height: 100%;
+}
+.box ul li img
+{
+  margin: 0em;
+  padding: 0em;
+  height: 1.5em;
+}
+
+.boxoption
+{
+  height: 1.5em;
+  cursor: pointer;
+  margin: 0.5em;
+  bottom: 0em;
+}
+
+.noselect
+{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: -1000;
+}
+
+.error
+{
+  color: red;
+}
+
+.noselect
+{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: -1000;
+}
