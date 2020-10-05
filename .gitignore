@@ -1,4 +1,4 @@
 /files/**
-!/files/
+!/files/.gitkeep
 /index/**
-!/index/
+!/index/.gitkeep
